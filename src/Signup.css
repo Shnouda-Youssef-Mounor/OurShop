@@ -1,0 +1,630 @@
+       @media only screen and (max-width:300px) {
+           .pageSignup {
+               margin-top: 10px;
+               display: grid;
+               grid-template-columns: auto;
+               margin-right: auto;
+               margin-left: auto;
+               max-width: 260px;
+               height: 100%;
+               box-shadow: 0px 0px gainsboro;
+               border-radius: 0px;
+               margin-top: 50%;
+           }
+           .title {
+               margin-top: 20px;
+               color: white;
+               text-transform: capitalize;
+               animation: dance 0.5s infinite;
+               text-shadow: 1px 1px #CBB557;
+               padding: 5px;
+               font-size: 1.4ch;
+           }
+           @keyframes dance {
+               0% {
+                   text-shadow: 1px 1px #CBB557;
+               }
+               100% {
+                   text-shadow: 1px 1px #D9C8A7;
+               }
+           }
+           .content {
+               padding: 5px;
+               border-radius: 20px;
+               max-width: 260px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-weight: bolder;
+               font-size: xx-large;
+               background-color: #162b41;
+           }
+           .cart {
+               margin-top: 10px;
+               margin-left: auto;
+               margin-right: auto;
+               width: 230px;
+               animation: go 1.5s linear normal;
+           }
+           @keyframes go {
+               0% {
+                   margin-left: -180px;
+               }
+               100% {
+                   margin-left: 0px;
+               }
+           }
+           #txs {
+               width: 100%;
+           }
+           .signup {
+               display: block;
+               max-width: 260px;
+               max-height: 500px;
+               box-sizing: content-box;
+               margin-right: 20px;
+           }
+           input,
+           .form-control {
+               margin-top: 10px;
+               width: 200px;
+           }
+           .boxx {
+               display: grid;
+               grid-template-rows: auto auto;
+               height: 100px;
+           }
+           #btnn {
+               margin-top: 10px;
+               width: 200px;
+               color: #D9C8A7;
+           }
+           .haveAccount {
+               text-align: center;
+               height: 40px;
+           }
+           .haveAnaccount,
+           .haveAnaccount:hover {
+               color: #CBB557;
+               text-decoration: none;
+               text-shadow: 1px 1px #162b41;
+           }
+           .haveAnaccount:active {
+               color: #162b41;
+               text-shadow: 1px 1px #CBB557;
+               text-decoration: none;
+           }
+           .alert,
+           .alert-danger {
+               color: #162b41;
+               background-color: #CBB557;
+               border-radius: 5px;
+               padding: 3px;
+               margin: 0;
+               font-size: 1.4ch;
+               font-weight: bold;
+               margin-bottom: 15px;
+           }
+       }
+       
+       @media only screen and (min-width:300px) {
+           .pageSignup {
+               margin-top: 10px;
+               display: grid;
+               grid-template-columns: auto;
+               margin-right: auto;
+               margin-left: auto;
+               max-width: 300px;
+               height: 100%;
+               box-shadow: 0px 0px gainsboro;
+               border-radius: 0px;
+               margin-top: 35%;
+           }
+           .title {
+               margin-top: 20px;
+               color: white;
+               text-transform: capitalize;
+               animation: dance 0.5s infinite;
+               text-shadow: 1px 1px #CBB557;
+               padding: 5px;
+               font-size: 1.4ch;
+           }
+           @keyframes dance {
+               0% {
+                   text-shadow: 1px 1px #CBB557;
+               }
+               100% {
+                   text-shadow: 1px 1px #D9C8A7;
+               }
+           }
+           .content {
+               padding: 5px;
+               border-radius: 20px;
+               max-width: 300px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-weight: bolder;
+               font-size: xx-large;
+               background-color: #162b41;
+           }
+           .cart {
+               margin-top: 10px;
+               margin-left: auto;
+               margin-right: auto;
+               max-width: 270px;
+               animation: go 1.5s linear normal;
+           }
+           @keyframes go {
+               0% {
+                   margin-left: -180px;
+               }
+               100% {
+                   margin-left: 0px;
+               }
+           }
+           #txs {
+               width: 100%;
+           }
+           .signup {
+               display: block;
+               max-width: 300px;
+               max-height: 500px;
+               box-sizing: content-box;
+               margin-right: 20px;
+           }
+           input,
+           .form-control {
+               margin-top: 10px;
+               width: 100%;
+           }
+           .boxx {
+               display: grid;
+               grid-template-rows: auto auto;
+               height: 100px;
+           }
+           #btnn {
+               margin-top: 10px;
+               width: 80%;
+               color: #D9C8A7;
+           }
+           .haveAccount {
+               text-align: center;
+               height: 40px;
+           }
+           .haveAnaccount,
+           .haveAnaccount:hover {
+               color: #CBB557;
+               text-decoration: none;
+               text-shadow: 1px 1px #162b41;
+           }
+           .haveAnaccount:active {
+               color: #162b41;
+               text-shadow: 1px 1px #CBB557;
+               text-decoration: none;
+           }
+           .alert,
+           .alert-danger {
+               color: #162b41;
+               background-color: #CBB557;
+               border-radius: 5px;
+               padding: 3px;
+               margin: 0;
+               font-size: 1.4ch;
+               font-weight: bold;
+               margin-bottom: 15px;
+           }
+       }
+       
+       @media only screen and (min-width:400px) {
+           .pageSignup {
+               margin-top: 10px;
+               display: grid;
+               grid-template-columns: auto;
+               margin-right: auto;
+               margin-left: auto;
+               max-width: 400px;
+               height: 100%;
+               box-shadow: 0px 0px gainsboro;
+               border-radius: 0px;
+               margin-top: 30%;
+           }
+           .title {
+               margin-top: 20px;
+               color: white;
+               text-transform: capitalize;
+               animation: dance 0.5s infinite;
+               text-shadow: 1px 1px #CBB557;
+               padding: 5px;
+               font-size: 1.4ch;
+           }
+           @keyframes dance {
+               0% {
+                   text-shadow: 1px 1px #CBB557;
+               }
+               100% {
+                   text-shadow: 1px 1px #D9C8A7;
+               }
+           }
+           .content {
+               padding: 5px;
+               border-radius: 20px;
+               max-width: 400px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-weight: bolder;
+               font-size: xx-large;
+               background-color: #162b41;
+           }
+           .cart {
+               margin-top: 10px;
+               margin-left: auto;
+               margin-right: auto;
+               max-width: 370px;
+               animation: go 1.5s linear normal;
+           }
+           @keyframes go {
+               0% {
+                   margin-left: -180px;
+               }
+               100% {
+                   margin-left: 0px;
+               }
+           }
+           #txs {
+               width: 100%;
+           }
+           .signup {
+               display: block;
+               max-width: 400px;
+               max-height: 500px;
+               box-sizing: content-box;
+               margin-right: 20px;
+           }
+           input,
+           .form-control {
+               margin-top: 10px;
+               width: 100%;
+           }
+           .boxx {
+               display: grid;
+               grid-template-rows: auto auto;
+               height: 100px;
+           }
+           #btnn {
+               margin-top: 10px;
+               width: 80%;
+               color: #D9C8A7;
+           }
+           .haveAccount {
+               text-align: center;
+               height: 40px;
+           }
+           .haveAnaccount,
+           .haveAnaccount:hover {
+               color: #CBB557;
+               text-decoration: none;
+               text-shadow: 1px 1px #162b41;
+           }
+           .haveAnaccount:active {
+               color: #162b41;
+               text-shadow: 1px 1px #CBB557;
+               text-decoration: none;
+           }
+           .alert,
+           .alert-danger {
+               color: #162b41;
+               background-color: #CBB557;
+               border-radius: 5px;
+               padding: 3px;
+               margin: 0;
+               font-size: 1.4ch;
+               font-weight: bold;
+               margin-bottom: 15px;
+           }
+       }
+       
+       @media only screen and (min-width:600px) {
+           .pageSignup {
+               margin-top: 10px;
+               display: grid;
+               grid-template-columns: auto;
+               margin-right: auto;
+               margin-left: auto;
+               max-width: 600px;
+               height: 100%;
+               box-shadow: 0px 0px gainsboro;
+               border-radius: 0px;
+               margin-top: 15%;
+           }
+           .title {
+               margin-top: 20px;
+               color: white;
+               text-transform: capitalize;
+               animation: dance 0.5s infinite;
+               text-shadow: 1px 1px #CBB557;
+               padding: 5px;
+               font-size: 1.4ch;
+           }
+           @keyframes dance {
+               0% {
+                   text-shadow: 1px 1px #CBB557;
+               }
+               100% {
+                   text-shadow: 1px 1px #D9C8A7;
+               }
+           }
+           .content {
+               padding: 5px;
+               border-radius: 20px;
+               max-width: 600px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-weight: bolder;
+               font-size: xx-large;
+               background-color: #162b41;
+           }
+           .cart {
+               margin-top: 10px;
+               margin-left: auto;
+               margin-right: auto;
+               max-width: 570px;
+               animation: go 1.5s linear normal;
+           }
+           @keyframes go {
+               0% {
+                   margin-left: -180px;
+               }
+               100% {
+                   margin-left: 0px;
+               }
+           }
+           #txs {
+               width: 100%;
+           }
+           .signup {
+               display: block;
+               max-width: 600px;
+               max-height: 500px;
+               box-sizing: content-box;
+               margin-right: 20px;
+           }
+           input,
+           .form-control {
+               margin-top: 10px;
+               width: 100%;
+           }
+           .boxx {
+               display: grid;
+               grid-template-rows: auto auto;
+               height: 100px;
+           }
+           #btnn {
+               margin-top: 10px;
+               width: 80%;
+               color: #D9C8A7;
+           }
+           .haveAccount {
+               text-align: center;
+               height: 40px;
+           }
+           .haveAnaccount,
+           .haveAnaccount:hover {
+               color: #CBB557;
+               text-decoration: none;
+               text-shadow: 1px 1px #162b41;
+           }
+           .haveAnaccount:active {
+               color: #162b41;
+               text-shadow: 1px 1px #CBB557;
+               text-decoration: none;
+           }
+           .alert,
+           .alert-danger {
+               color: #162b41;
+               background-color: #CBB557;
+               border-radius: 5px;
+               padding: 3px;
+               margin: 0;
+               font-size: 1.4ch;
+               font-weight: bold;
+               margin-bottom: 15px;
+           }
+       }
+       
+       @media only screen and (min-width:930px) {
+           .pageSignup {
+               margin-top: 40px;
+               display: grid;
+               grid-template-columns: auto auto;
+               margin-right: auto;
+               margin-left: auto;
+               width: 700px;
+               height: 520px;
+               margin-top: 20%;
+           }
+           .title {
+               margin-top: 20px;
+               color: rgb(255, 255, 255);
+               text-transform: capitalize;
+               animation: dance 0.5s infinite;
+               text-shadow: 1px 1px gainsboro;
+               padding: 5px;
+           }
+           @keyframes dance {
+               0% {
+                   text-shadow: 1px 1px #CBB557;
+               }
+               100% {
+                   text-shadow: 1px 1px #D9C8A7;
+               }
+           }
+           .content {
+               padding: 5px;
+               border-radius: 20px;
+               width: 300px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-weight: bolder;
+               font-size: xx-large;
+               background-color: #162b41;
+           }
+           .cart {
+               margin-top: 60px;
+               margin-left: auto;
+               margin-right: auto;
+               width: 290px;
+               animation: go 1.5s linear normal;
+           }
+           @keyframes go {
+               0% {
+                   margin-left: -180px;
+               }
+               100% {
+                   margin-left: 0px;
+               }
+           }
+           .signup {
+               display: block;
+               width: 390px;
+               height: 500px;
+               box-sizing: content-box;
+           }
+           input {
+               margin-top: 10px;
+           }
+           #txs {
+               width: 100%;
+           }
+           .boxx {
+               display: grid;
+               grid-template-rows: auto auto;
+               height: 80px;
+           }
+           #btn {
+               margin-top: 10px;
+               width: 300px;
+               color: #D9C8A7;
+           }
+           .haveAccount {
+               text-align: center;
+               margin-bottom: 5px;
+               color: #D9C8A7;
+           }
+           .haveAnaccount:hover {
+               color: #CBB557;
+               text-decoration: none;
+           }
+           .haveAnaccount:active {
+               color: #CBB557;
+               text-decoration: none;
+               text-shadow: 1px 1px #162b41;
+           }
+           .alert,
+           .alert-danger {
+               background-color: #CBB557;
+               color: #162b41;
+               border-radius: 5px;
+               padding: 3px;
+               margin: 0;
+               font-size: 1.4ch;
+               font-weight: bold
+           }
+       }
+       
+       @media only screen and (min-width:1000px) {
+           .pageSignup {
+               display: grid;
+               grid-template-columns: auto auto;
+               margin-right: auto;
+               margin-left: auto;
+               width: 700px;
+               height: 520px;
+               margin-top: 7.8%;
+           }
+           .title {
+               margin-top: 20px;
+               color: rgb(255, 255, 255);
+               text-transform: capitalize;
+               animation: dance 0.5s infinite;
+               text-shadow: 1px 1px gainsboro;
+               padding: 5px;
+           }
+           @keyframes dance {
+               0% {
+                   text-shadow: 1px 1px #CBB557;
+               }
+               100% {
+                   text-shadow: 1px 1px #D9C8A7;
+               }
+           }
+           .content {
+               padding: 5px;
+               border-radius: 20px;
+               width: 300px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-weight: bolder;
+               font-size: xx-large;
+               background-color: #162b41;
+           }
+           .cart {
+               margin-top: 60px;
+               margin-left: auto;
+               margin-right: auto;
+               width: 290px;
+               animation: go 1.5s linear normal;
+           }
+           @keyframes go {
+               0% {
+                   margin-left: -180px;
+               }
+               100% {
+                   margin-left: 0px;
+               }
+           }
+           .signup {
+               display: block;
+               width: 390px;
+               height: 500px;
+               box-sizing: content-box;
+           }
+           input {
+               margin-top: 10px;
+           }
+           #txs {
+               width: 100%;
+           }
+           .boxx {
+               display: grid;
+               grid-template-rows: auto auto;
+               height: 80px;
+           }
+           #btn {
+               margin-top: 10px;
+               width: 300px;
+               color: #D9C8A7;
+           }
+           .haveAccount {
+               text-align: center;
+               margin-bottom: 5px;
+               color: #D9C8A7;
+           }
+           .haveAnaccount:hover {
+               color: #CBB557;
+               text-decoration: none;
+           }
+           .haveAnaccount:active {
+               color: #CBB557;
+               text-decoration: none;
+               text-shadow: 1px 1px #162b41;
+           }
+           .alert,
+           .alert-danger {
+               background-color: #CBB557;
+               color: #162b41;
+               border-radius: 5px;
+               padding: 3px;
+               margin: 0;
+               font-size: 1.4ch;
+               font-weight: bold
+           }
+       }

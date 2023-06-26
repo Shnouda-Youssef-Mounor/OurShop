@@ -5,7 +5,7 @@ import Login from './Login';
 import Signup from './Signup';
 import Copyrights from './Copyrights';
 import Contact from './Contact';
-import Details from './Details';
+//import Details from './Details';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import'./navbar.css'

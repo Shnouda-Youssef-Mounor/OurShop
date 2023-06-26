@@ -1,5 +1,5 @@
 {
-    "homepage": "https://Shnouda-Youssef-Mounor.github.io/OurShop",
+    "homepage": "https://Shnouda-Youssef-Mounor.github.io/ourshop",
     "name": "my-app",
     "version": "0.1.0",
     "private": true,
@@ -8,7 +8,6 @@
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
         "bootstrap": "^4.6.0",
-        "gh-pages": "^5.0.0",
         "react": "^18.2.0",
         "react-bootstrap": "^2.7.2",
         "react-dom": "^18.2.0",
@@ -42,5 +41,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "gh-pages": "^5.0.0"
     }
 }

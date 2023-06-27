@@ -22,7 +22,7 @@ class App extends Component {
 <div>
 <NavBar/>
           <Routes>
-          <Route path='/home' element={<Login/>}/>
+          <Route path='/signin' element={<Login/>}/>
            <Route path='/signup' element={<Signup/>}/>
            <Route path='/contact' element={<Contact/>} />
         

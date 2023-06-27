@@ -14,7 +14,7 @@ class NavBar extends Component {
   <div className="nav">
     <ul className="show navbar-nav float-start">
       <li className="nav-item">
-      <NavLink className="nav-link text-white" to = { "/home" } > Sing in</NavLink>  
+      <NavLink className="nav-link text-white" to = { "/Signin" } > Sing in</NavLink>  
       </li>
       <li className="nav-item ">
       <NavLink className="nav-link text-white" to = { "/Signup" } > Sing up </NavLink>  

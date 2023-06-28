@@ -5,6 +5,7 @@ import Login from './Login';
 import Signup from './Signup';
 import Copyrights from './Copyrights';
 import Contact from './Contact';
+import Home from './Home';
 //import Details from './Details';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
@@ -25,7 +26,7 @@ class App extends Component {
           <Route path='/signin' element={<Login/>}/>
            <Route path='/signup' element={<Signup/>}/>
            <Route path='/contact' element={<Contact/>} />
-        
+           <Route path='/home' element={<Home/>} />
           </Routes>
 <footer><Copyrights/></footer>
 </div>

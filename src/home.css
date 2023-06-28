@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.pagehome {
+    position: relative;
+    margin-top: 9.1%;
+}
+
+.sliderOffers-container {
+    box-shadow: 2px 2px gainsboro;
+    border-radius: 20px;
+    width: 800px;
+    margin: 10px auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.sliderOffers-container ul {
+    padding: 0;
+    width: 3200px;
+    list-style: none;
+    position: relative;
+    animation: sliding 15s ease-in-out infinite;
+}
+
+.sliderOffers-container ul li {
+    float: left;
+    position: relative;
+}
+
+#pho {
+    width: 800px;
+    height: auto;
+}
+
+@keyframes sliding {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: -800px;
+    }
+    40% {
+        left: -1600px;
+    }
+    100% {
+        left: 0;
+    }
+}

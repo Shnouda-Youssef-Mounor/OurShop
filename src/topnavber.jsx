@@ -32,7 +32,7 @@ class NavBar extends Component {
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar_nav">
-      <NavLink className="navitem" >Home</NavLink>
+      <NavLink className="navitem"to = { "/Home" } >Home</NavLink>
       <NavLink className="navitem" >Laptop and PC</NavLink>
       <NavLink className="navitem" >Mobiles</NavLink>
     </div>
